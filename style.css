@@ -1,0 +1,138 @@
+body {
+    background-color: orange;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: orangered;
+    border: black 5px solid;
+    border-radius: 5em;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+
+    padding: 10px;
+    border-radius: 5em;
+    width: 100px;
+    text-align: center;
+}
+
+/*Index*/
+#login {
+    height: 300px;
+    width: 500px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 1);
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid black 2px;
+    border-radius: 2em;
+}
+
+#textoLogin {
+    text-align: center;
+}
+
+/*ERROR*/
+
+#errorMsg {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*Cataleg*/
+#graella {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 0 5%;
+    text-align: center;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 1);
+}
+
+#botonSubmit {
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    border-radius: 5em;
+    background-color: orangered;
+    border: black 5px solid;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+.producte {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.preu {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: lightcoral;
+}
+
+img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+/*Tiquet*/
+
+.divTiquet {
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    height: auto;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+h4 {
+    text-align: center;
+}
+
+.divTotal {
+    font-weight: bolder;
+}
+
+.tiquetItem {
+    display: flex;
+}
+
+.divTiquetNom {
+    text-align: left;
+}
+
+.divTiquetPreu {
+    text-align: right;
+}
